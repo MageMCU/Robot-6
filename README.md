@@ -1,10 +1,10 @@
 ## Robot-6
 - Unity 3D Universal Project:
-# Unity Version
+### Unity Version
 - 6.3 LTS
-# Author
+### Author
 - Jesse Carpenter
-# Unity Package
+### Unity Package
 - Robot6-003
-# Date Released
+### Date Released
 - 20260617
