@@ -1,50 +1,51 @@
-## Robot-6 
-- Unity 3D Universal Project 
-### Unity Version
-- 6.3 LTS
-### Author
-- Jesse Carpenter
-### Unity Package
-- Robot6-003 (`.unitypackage` kept in the repo for distribution)
-### Date Released
-- 20260617
-### License
-- MIT
-### History
-- Robot 6 was an **old project (2018)** revised from Unity versions 2018 - 2019. Much of the code was rewritten for the New Input System including the basic kinematics to drive the orientation and wheels of the robot.
-### Bug Fix & notes
-- Robot 6 Input System
-  - Using Joystick Interface (Joystick Group Prefab)
-    - Keyboard
-    - Mouse
-- Unity 6.3 LTS Rigidbody
-  - Mass: 3.8 kg (about the mass of a gallon of water)
-  - Linear Damping: 0.1
-  - Angular Damping: 0.05
-  - Automatic Center of Mass: Checked
-  - Automatic Tensor: Checked
-  - Use Gravity: Checked
-  - Is Kenematic: Un-Checked (Do Not Use)
-  - Interpolate: None
-  - Collision Detection: Discrete
-  - Remaining Settings: Default
-- There are two identical joystick algorithms
-  - Joystick Interface: Algorithm.cs
-  - Robot 6 code: JoystickAlgorithm.cs
-- Measure Master (Unity Store)
-  - Robot 6
-    - Left & Right Wheel Meshes
-      - Tire: attached Measurements (script)
-        - Tire Radius: used for kinematics
-        - Distance between tires: used for robot pose (orientation)
-  - Robot Camera
-    - Uses the Unity Input System for mouse look and zoom
-      - Project Settings
-        - Player: Active Input Settings: Input System Package (New)
-  - INPUTS
-    - (1) Keyboard: WASD keys: Moves robot.
-    - (2) Left Mouse Button: Joystick GUI: Moves joystick grip (Joystick Camera as Overlay see Main Camera)
-    - (3) Right Mouse Button: Main Camera Control on robot: Rotate around robot (See Robot Camera FIXME)
-    - (4) Scroll Wheel:  Main Camera Control on robot: Zoom in and out from robot.
-### TODO
-- The Robot 6 is no longer used yet it might benefit someone. Presently developing Robot 7.
+# Robot-6
+
+Robot-6 is a Unity robot demo that lets you drive a wheeled robot with either the keyboard or an on-screen joystick. The repo includes the full Unity project and a `.unitypackage` version for distribution.
+
+## Quick Facts
+
+- Unity version: 6.3 LTS
+- Author: Jesse Carpenter
+- License: MIT
+- Package name: `Robot6-003`
+
+## What You Get
+
+- A robot controller with wheel movement and steering logic
+- An on-screen joystick interface
+- A main robot camera with mouse look and zoom
+- Measurement helpers used for wheel and robot sizing
+- Example scenes for testing and demonstration
+
+## How To Open It
+
+1. Open the project in Unity 6.3 LTS.
+2. Open the scene at `Assets/Scenes/RoboWorld.unity`.
+3. Press Play.
+
+If you only want to import the packaged version, use `Robot6-003.unitypackage`.
+
+## Controls
+
+- `WASD`: Move the robot
+- Left mouse button: Move the joystick grip
+- Right mouse button: Rotate the main camera around the robot
+- Mouse wheel: Zoom the main camera in and out
+
+## Project Notes
+
+- The project uses the Unity Input System.
+- The joystick UI and the robot controller both feed the same movement logic.
+- The repository includes reference copies of Unity and VS Code ignore files under `ref/`.
+
+## Folder Guide
+
+- `Assets/Robot6`: Robot scripts, prefabs, meshes, and materials
+- `Assets/JoystickInterface`: Joystick UI assets and scripts
+- `Assets/MeasureMaster`: Measurement tools used by the robot project
+- `Assets/Scenes`: Main scenes
+- `ref/`: Reference ignore templates
+
+## License
+
+This project is released under the MIT License. See [LICENSE](LICENSE) for details.
