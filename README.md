@@ -5,7 +5,7 @@
 ### Author
 - Jesse Carpenter
 ### Unity Package
-- Robot6-003
+- Robot6-003 (`.unitypackage` kept in the repo for distribution)
 ### Date Released
 - 20260617
 ### License
@@ -38,9 +38,9 @@
         - Tire Radius: used for kinematics
         - Distance between tires: used for robot pose (orientation)
   - Robot Camera
-    - Presently using Old Input System - FIXME [jc 20260617 ok]
+    - Uses the Unity Input System for mouse look and zoom
       - Project Settings
-        - Player: Active Input Settings: DO NOT USE - Both
+        - Player: Active Input Settings: Input System Package (New)
   - INPUTS
     - (1) Keyboard: WASD keys: Moves robot.
     - (2) Left Mouse Button: Joystick GUI: Moves joystick grip (Joystick Camera as Overlay see Main Camera)

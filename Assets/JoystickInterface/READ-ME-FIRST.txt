@@ -1,0 +1,28 @@
+Unity 3D Universal Project:
+    Joystick GUI
+Unity Version:
+    6.3 LTS
+Author: 
+    Jesse Carpenter
+Github: MageMCU:
+    Joystick GUI 002 (Unity Package)
+Date Released:
+    20260607
+License:
+    MIT
+History:
+    This package version Joystick-Interface-008 (derived from Mouse-Interaction-005) 
+    has incorporated the Joystick Algorithm reason for the new title. Cleaned code
+    and added examples for study.
+Bug Fix: 
+    JoystickGraph: Voltages Simulation: Pot X & Pot Y outputs.
+TODO: 
+    Although is has the New Input System Keyboard example, it still needs
+    more keyboard examples like incorporating a keyboard a joystick algorithm 
+    with out using 'the algorithm output' similarly used with the mouse.
+SUPPORT:
+    I work on all kinds of projects, and I do it on my own free time.
+    Visit Carpenter Software website: (carpentersoftware.com)
+    Please support by purchasing a book at eBay - Carpenter Software Account - see 
+    footer at website
+    Thank You
