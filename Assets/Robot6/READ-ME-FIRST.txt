@@ -40,9 +40,9 @@ Bug Fix & notes:
                     Tire Radius: used for kinematcs
                     Distance between tires: used for robot pose (orientation)
     Robot Camera
-        Presently using Old Input System - FIXME []
+        Uses Unity Input System (New)
             Project Settings:
-                Player: Active Input Settings: Both
+                Player: Active Input Settings: Input System Package (New)
     INPUTS:
         (1) Keyboard: WASD keys: Moves robot.
         (2) Left Mouse Button: Joystick GUI: Moves joystick grip
@@ -51,7 +51,7 @@ Bug Fix & notes:
             (See Robot Camera FIXME)
         (4) Scroll Wheel:  Main Camera Control on robot: Zoom in and out from robot.
 TODO: 
-    A lot.... The Robot 6 will be posted at MageMCU to be retired for Robot 7.
+    Robot 6 is retired. Presently developing Robot 7.
 SUPPORT:
     I work on all kinds of projects, and I do it on my own free time.
     Visit Carpenter Software website: (carpentersoftware.com)

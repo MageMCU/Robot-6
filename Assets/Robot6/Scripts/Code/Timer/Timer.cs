@@ -5,7 +5,6 @@ namespace Timer
 {
     public class Timer
     {
-        private Timer timer;
         private float _nextTime;
 
         public Timer()

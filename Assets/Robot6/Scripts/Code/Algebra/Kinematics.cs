@@ -33,6 +33,7 @@ namespace Algebra
             return new Matrix(3, 3, _tuples);
         }
 
+        // TODO: RotationZ_Transform is a future stub — body not yet implemented.
         public Matrix RotationZ_Transform()
         {
             // Instaniate Array

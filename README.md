@@ -1,5 +1,7 @@
 # Robot-6
 
+![RoboWorld scene screenshot](Image/RoboWorld.png)
+
 Robot-6 is a Unity robot demo that lets you drive a wheeled robot with either the keyboard or an on-screen joystick. The repo includes the full Unity project and a `.unitypackage` version for distribution.
 
 ## Quick Facts
@@ -36,6 +38,7 @@ If you only want to import the packaged version, use `Robot6-003.unitypackage`.
 
 - The project uses the Unity Input System.
 - The joystick UI and the robot controller both feed the same movement logic.
+- There are two joystick algorithm files: `Algorithm.cs` belongs to the self-contained JoystickInterface package, and `JoystickAlgorithm.cs` belongs to the Robot6 controller. Both are kept so each package can stand alone.
 - The repository includes reference copies of Unity and VS Code ignore files under `ref/`.
 
 ## Folder Guide
