@@ -47,3 +47,4 @@
     - (3) Right Mouse Button: Main Camera Control on robot: Rotate around robot (See Robot Camera FIXME)
     - (4) Scroll Wheel:  Main Camera Control on robot: Zoom in and out from robot.
 ### TODO
+- A lot.... The Robot 6 will be posted at MageMCU to be retired for Robot 7.
