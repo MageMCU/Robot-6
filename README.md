@@ -41,3 +41,9 @@
     - Presently using Old Input System - FIXME [jc 20260617 ok]
       - Project Settings
         - Player: Active Input Settings: DO NOT USE - Both
+  - INPUTS
+    - (1) Keyboard: WASD keys: Moves robot.
+    - (2) Left Mouse Button: Joystick GUI: Moves joystick grip (Joystick Camera as Overlay see Main Camera)
+    - (3) Right Mouse Button: Main Camera Control on robot: Rotate around robot (See Robot Camera FIXME)
+    - (4) Scroll Wheel:  Main Camera Control on robot: Zoom in and out from robot.
+### TODO
