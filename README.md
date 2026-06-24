@@ -1,6 +1,6 @@
 # Unity Joystick Robot Simulation
 
-![Unity Joystick GUI screenshot](Image/{8D3DDBA9-E443-4B81-80EF-5EF4504F362B}.png)
+![RoboWorld scene screenshot](Image/RoboWorld.png)
 
 Unity Joystick Robot Simulation is a Unity package combining a joystick GUI and a wheeled robot simulation demo. This repository is intentionally kept simple so readers can quickly review the source code.
 
