@@ -47,8 +47,7 @@ Unity Joystick Robot Simulation is a Unity package combining a joystick GUI and 
 
 - `Source/JoystickInterface/Scripts/Joystick/Algorithm.cs`
 - `Source/JoystickInterface/Scripts/JoystickGraph.cs`
-- `Source/ExampleOutputs/Scripts/DisplayOutputs.cs`
-- `Source/InputSystem_Actions.inputactions`
+- ---`Source/ExampleOutputs/Scripts/DisplayOutputs.cs`---
 - `Source/JoystickInterface/ReadMe.txt`
 
 ### Robot-6
